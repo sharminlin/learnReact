@@ -31,6 +31,7 @@ export class Component {
   constructor () {
     this.children = []
   }
+
   setAttribute (name, value) {
     this[name] = value
   }
